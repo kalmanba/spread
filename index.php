@@ -64,7 +64,6 @@ $login_url = $client->createAuthUrl();
                                 class="rounded-circle">
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownProfile">
-                            <li><a onclick="openBookmarks();" class="dropdown-item" href="#">Könyvjelzők</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
