@@ -10,15 +10,9 @@ loadEnv(__DIR__ . '/../.env');
 session_start();
 
 $client = new Google_Client();
-<<<<<<< HEAD
 $client->setClientId($_ENV['GOOGLE_CLIENT_ID']);
 $client->setClientSecret($_ENV['GOOGLE_CLIENT_SECRET']);
 $client->setRedirectUri($_ENV['GOOGLE_REDIR_URL']);
-=======
-$client->setClientId("");
-$client->setClientSecret('');
-$client->setRedirectUri('http://localhost/acc/google-callback.php');
->>>>>>> 384927cc (initial commit)
 $client->addScope('email');
 $client->addScope('profile');
 
