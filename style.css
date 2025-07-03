@@ -1,0 +1,174 @@
+:root {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.readBox {
+    width: 600px;
+    max-width: 95%;
+    height: 300px;
+    justify-self: center;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.word {
+    font-size: 3rem;
+}
+
+.controlls {
+    max-width: 600px;
+    width: 95%;
+    margin-top: 5px;
+    justify-self: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: space-between;
+}
+.controllButton {
+    padding: 2px;
+    max-width: 100px;
+    height:32px;
+}
+.speedController {
+    justify-self: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 600px !important;
+    width: 90% !important;
+    margin-top: 5px;
+    height: 32px;
+    background-color: rgba(87, 197, 182, .1);
+    border: solid;
+    border-radius: 2px;
+    border-color: #002b5b;
+    border-width: 1px;
+}
+
+#speed {
+    margin: 0px 5px;
+    border: none;
+    font-size: large;
+}
+
+.fileForm {
+    justify-self: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 600px;
+    width: 90%;
+    margin-top: 5px;
+    height: 32px;
+    background-color: rgba(87, 197, 182, .1);
+    border: solid;
+    border-radius: 2px;
+    border-color: #002b5b;
+    border-width: 1px;
+}
+
+.filename {
+    justify-self: end;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    justify-self: center;
+    max-width: 100%;
+    width: 700px;
+    padding: 0px 10px;
+}
+
+nav {
+    background-color: #002b5b;
+    color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+}
+.navContainer {
+    justify-self: center;
+    align-items: center;
+    max-width: 100%;
+    width: 700px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.user {
+    justify-self: end;
+    width: 30px;
+    height: 30px;
+}
+.profil {
+    width: 26px;
+    height: 26px;
+}
+
+.dropbtn {
+    color: white;
+    cursor: pointer;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    justify-content: end;
+    background-color: #002b5b;
+  }
+  
+  /* Container for dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    justify-self: end;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+      /* Align the right edges */
+    right: 0;
+    top: 100%;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    font-size: small;
+  }
+  
+  /* Change color on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .show {
+    display: block;
+  }
+

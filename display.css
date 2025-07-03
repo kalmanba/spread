@@ -1,0 +1,211 @@
+body {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+/*.controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}*/
+
+.speed-control {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+input[type="number"] {
+    padding: 3px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 80px;
+    justify-self: end;
+}
+.speedLabel {
+    justify-self: start;
+}
+
+/* button { */
+    /* padding: 10px 20px; */
+    /* border: none; */
+    /* border-radius: 5px; */
+    /* cursor: pointer; */
+    /* font-size: 16px; */
+    /* transition: background-color 0.3s; */
+/* } */
+
+.control-btn {
+    background-color: #032830;
+    color: white;
+    padding: 2px;
+    max-width: 100px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+.control-btn:hover {
+    background-color: #45a049;
+}
+
+
+.display-area {
+    min-height: 300px;
+    max-width: 600px;
+    width: 95%;
+    padding: 30px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.status {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e3f2fd;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 600px;
+    width: 95%;
+    justify-self: center;
+}
+#authorTitle {
+    justify-self: center;
+}
+
+.bg-info-subtle {
+    background-color: #032830 !important;
+
+}
+
+.btn-info-subtle {
+    background-color: #032830 !important;
+
+}
+
+.btn-info-subtle:hover {
+    background-color: rgb(6, 108, 131) !important;
+
+}
+
+.readBox {
+    width: 600px;
+    max-width: 95%;
+    height: 300px;
+    justify-self: center;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.controlls {
+    max-width: 600px;
+    width: 95%;
+    margin-top: 5px;
+    justify-self: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: space-between;
+}
+
+.controllButton {
+    padding: 2px;
+    max-width: 100px;
+    height: 32px;
+}
+
+.speedController {
+    justify-self: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 600px !important;
+    width: 95% !important;
+    margin-top: 5px;
+    background-color: rgba(87, 197, 182, .1);
+    border: solid;
+    border-radius: 4px;
+    border-color: #002b5b;
+    border-width: 1px;
+}
+
+#speed {
+    border: none;
+    font-size: large;
+    text-align: end;
+}
+
+.fileForm {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e3f2fd;
+    border-radius: 5px;
+
+    justify-self: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 600px;
+    width: 95%;
+}
+
+.bmHeaderContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #032830;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 95%;
+    justify-self: center;
+
+}
+
+#bookmarks-container {
+    max-width: 600px;
+    width: 95%;
+    justify-self: center
+}
+
+.bmHeading {
+    font-size: 1.3rem;
+}
+
+.actionButtons {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.actionButton {
+    width: 6ch;
+    justify-self: center;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
