@@ -65,12 +65,11 @@ $login_url = $client->createAuthUrl();
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownProfile">
                             <li><a onclick="openBookmarks();" class="dropdown-item" href="#">Könyvjelzők</a></li>
-                            <li><a class="dropdown-item" href="#">Settings</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a hx-get="/backend/file.php?logout=1" hx-target="#dropdown" hx-swap="innerHTML"
-                              class="dropdown-item" href="#">Logout</a></li>
+                              class="dropdown-item" href="#">Kijelentkezés</a></li>
                         </ul>
                     </div>
                 HTML;
