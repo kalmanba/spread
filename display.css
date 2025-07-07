@@ -209,3 +209,44 @@ td {
     text-align: center;
     vertical-align: middle;
 }
+.hx-loading-indicator {
+    background-color: #032830;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #032830, #ffff, #032830, #ffff, #032830);
+    z-index: 9999;
+
+}
+
+.htmx-request.hx-loading-indicator {
+    opacity: 1;
+    animation: fadeIn 1s linear forwards, slide 1.2s ease-in-out infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
