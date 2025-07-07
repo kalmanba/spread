@@ -80,7 +80,7 @@ class WordDisplay {
     displayNextWord() {
         if (this.currentIndex >= this.words.length) {
             this.pause();
-            this.displayElement.textContent = "Finished!";
+            this.displayElement.textContent = "Kész!!";
             return;
         }
         
