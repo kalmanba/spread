@@ -44,8 +44,8 @@ $login_url = $client->createAuthUrl();
     </style>
 </head>
 
-<body>
-
+<body hx-indicator=".hx-loading-indicator">
+<div class="hx-loading-indicator"></div>
     <nav class="navbar navbar-dark bg-info-subtle px-3">
         <div class="container">
             <span class="navbar-brand mb-0 h1">SPREAD</span>
@@ -154,7 +154,7 @@ $login_url = $client->createAuthUrl();
 
         <div class="status">
             <div class="speed-control">
-                <label class="speedLabel" for="speed">Speed (WPM):</label>
+                <label class="speedLabel" for="speed">Spebesség (WPM):</label>
                 <input type="number" id="speed" value="120" min="1" max="1000">
             </div>
         </div>
@@ -241,6 +241,8 @@ $login_url = $client->createAuthUrl();
             <li>Ha más eszközön is szeretnéd az olvasást folytatni nincs más dolgod, mint bejelentkezni Google-fiókoddal, és megnyomni a könyvjelző gombot. Ekkor a rendszer elmenti az olvasott könyv címét és azt, hogy hol tartottál. A másik eszközön nyisd meg újra a könyvet, majd jelentkezz be. Ezután a könyvjelzők alatt megjelennek majd a mentett könyvjelzőid. Válaszd ki a megynitott könyvhöz megfelelőt, és folytasd onnan az olvasást ahol abbahagytad.</li>
         </ol>
         <p><span class="fw-bold text-danger">Figyelem!</span> A könyvek szövegét nem tároljuk szervereinken, így azt másik eszköz használatakor újra meg kell majd nyitni.</p>
+        <hr>
+        <span><a href="/acc/tos.php">ÁSZF</a> | <a href="/acc/privacy.php">Adatvédelem</a></span>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
