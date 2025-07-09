@@ -1,6 +1,9 @@
 body {
     font-family: "IBM Plex Mono", monospace;
 }
+.container {
+    display: grid;
+}
 
 /*.controls {
     display: flex;
@@ -178,8 +181,6 @@ input[type="number"] {
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
-    max-width: 600px;
-    width: 95%;
     justify-self: center;
 
 }
@@ -192,6 +193,17 @@ input[type="number"] {
 
 .bmHeading {
     font-size: 1.3rem;
+}
+.bmLink {
+    justify-self: center;
+    width: 95%;
+    max-width: 600px;
+}
+#collapseExample.show {
+    display: grid;
+}
+#collapseExample.collapsing {
+    display: grid;
 }
 
 .actionButtons {
@@ -249,4 +261,8 @@ td {
     100% {
         opacity: 1;
     }
+}
+.rulesContainer {
+    max-width: 95%;
+    width: 1000px;
 }

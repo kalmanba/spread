@@ -169,7 +169,7 @@ $login_url = $client->createAuthUrl();
             <span id="filename" class="filename" style="justify-self: end;"></span>
         </form>
 
-        <a class="text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" role="button"
+        <a class="bmLink text-decoration-none" data-bs-toggle="collapse" href="#collapseExample" role="button"
             aria-expanded="false" aria-controls="collapseExample">
             <div class="bmHeaderContainer">
                 <span class="bmHeading">Könyvjelzők</span>
@@ -242,7 +242,7 @@ $login_url = $client->createAuthUrl();
         </ol>
         <p><span class="fw-bold text-danger">Figyelem!</span> A könyvek szövegét nem tároljuk szervereinken, így azt másik eszköz használatakor újra meg kell majd nyitni.</p>
         <hr>
-        <span><a href="/acc/tos.php">ÁSZF</a> | <a href="/acc/privacy.php">Adatvédelem</a></span>
+        <span class="py-2"><a href="/acc/tos.php">ÁSZF</a> | <a href="/acc/privacy.php">Adatvédelem</a></span>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"

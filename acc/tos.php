@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Adatvédelmi Szabályzat</title>
+    <title>Felhasználási Feltételek</title>
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -22,20 +22,18 @@
 
     <link rel="stylesheet" href="/snack.css">
     <link rel="stylesheet" href="/display.css">
+    <style>
+        .containment {
+            display: grid;
+            justify-items: center;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <a href="/">← Vissza</a>
-        <!DOCTYPE html>
-        <html lang="hu">
-
-        <head>
-            <meta charset="UTF-8">
-            <title>Felhasználási Feltételek</title>
-        </head>
-
-        <body>
+    <div class="containment">
+        <div class="rulesContainer">
+            <a href="/">← Vissza</a>
             <h1>Felhasználási Feltételek</h1>
             <p><strong>Hatálybalépés dátuma:</strong> 2025-07-07</p>
             <p><strong>Utolsó frissítés:</strong> 2025-07-07</p>
@@ -217,7 +215,8 @@
             <p>Ha kérdése van a Feltételekkel kapcsolatban, vegye fel velünk a kapcsolatot:</p>
             <ul>
                 <li><strong>Email:</strong> <a href="mailto:info@honaphire.net">info@honaphire.net</a></li>
-                <li><strong>Weboldal:</strong><a href="https://spread.honaphire.net">https://spread.honaphire.net</a></li>
+                <li><strong>Weboldal:</strong><a href="https://spread.honaphire.net">https://spread.honaphire.net</a>
+                </li>
             </ul>
 
             <h2>15. Elválaszthatóság</h2>
@@ -230,10 +229,7 @@
 
             <p>A Szolgáltatás használatával Ön kijelenti, hogy elolvasta, megértette és elfogadja ezen Felhasználási
                 Feltételeket.</p>
-        </body>
-
-        </html>
-
+        </div>
     </div>
 </body>
 
