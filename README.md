@@ -8,11 +8,11 @@ A spread egy az RSVP módszeren alapuló gyorsolvasó program, amely kifejezette
 - Bejelentkezés Google Oauth szolgáltatással és a könyvjelzők létrehozása, adatbázisba mentése. A könyv szövege nem kerül mentésre a szerveren.
 
 ## Technológia
-PHP, JS, CSS, HTMl. 
-Framework nem került felhasználása. Külső szolgáltató könyvtárai: google/apiclient (composer), ill. a fronted-backend kommunikációhoz htmx script. Egyes UI részekhez Bootstra, valamint a betűtipusokhoz (IBM Plex Mono) Google Font szervereit használja.
+PHP, JS, CSS, HTML, MYSQL. 
+Framework nem került felhasználása. Külső szolgáltató könyvtárai: google/apiclient (composer), ill. a fronted-backend kommunikációhoz htmx script. Egyes UI részekhez Bootstrap, valamint a betűtipusokhoz (IBM Plex Mono) Google Font szervereit használja.
 
 ## Telepítés
-Követelmény: Web server legalább PHP 8.2-es támogatással, MYSQL adatbázis.
+Követelmény: Web server legalább PHP 8.2-es támogatással, MYSQL adatbázis, localhoston futtatva. (Megoldható ugyan más címről is az adatbázis, de ahhoz a kódot kellene szerkeszteni, csak a .env fájlon keresztül nem beállítható.
 
 A telepítéshez le kell klónozni a repot: 
 ```
